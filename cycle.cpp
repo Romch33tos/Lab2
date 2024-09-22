@@ -1,10 +1,12 @@
 #include <iostream>
 #include <math.h>
+#include <iomanip>
 using namespace std;
 
 int main()
 {
     setlocale(LC_ALL, "russian");
+    cout << fixed << setprecision(3);
     float a = 0.0288;
     float b = 0.032;
     float t = 15.7;
