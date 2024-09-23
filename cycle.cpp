@@ -7,11 +7,13 @@ int main()
 {
     setlocale(LC_ALL, "russian");
     cout << fixed << setprecision(3);
+    
     float a = 0.0288;
     float b = 0.032;
     float t = 15.7;
     int k = 0;
     float v;
+    
     while (k < 8) {
         cout << "Введите значение v" << ++k << ": ";
         cin >> v;
