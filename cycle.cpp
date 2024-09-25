@@ -3,8 +3,7 @@
 #include <iomanip>
 using namespace std;
 
-int main()
-{
+int main() {
     setlocale(LC_ALL, "russian");
     cout << fixed << setprecision(3);
     
